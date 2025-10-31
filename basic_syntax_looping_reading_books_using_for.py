@@ -1,5 +1,5 @@
 """
-Program perulangan membaca buku
+Program perulangan membaca buku dengan for
 """
 
 books = 110
