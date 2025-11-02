@@ -62,25 +62,3 @@ for i in range(0, len(books_list)):
 print('Maka yang diambil adalah nomor 2 dari belakang')
 print('Pop Seperti ini berguna untuk tipe data stack')
 
-print('\nPerintah del untuk menghapus')
-books_list = ['rich dad poor dad', 'How to influence people', 'The Warren Buffet Way', 'The Intelligent Investor']
-del books_list[0]
-for i in range(0, len(books_list)):
-    print(books_list[i])
-
-print('\nPerintah del dengan List Comprehension')
-books_list = ['rich dad poor dad', 'How to influence people', 'The Warren Buffet Way', 'The Intelligent Investor']
-del books_list[:]
-for i in range(0, len(books_list)):
-    print(books_list[i])
-print('\njadi books_list[:] = books_list[kiri = start : kanan = stop]')
-print('kalau tidak di defenisikan start dan stop nya maka akan menghapus semuanya')
-
-print('\nPerintah del dengan List Comprehension dengan Start dan stop')
-books_list = ['rich dad poor dad', 'How to influence people', 'The Warren Buffet Way', 'The Intelligent Investor']
-del books_list[0:3]
-# atau bisa juga books_list[:3]
-for i in range(0, len(books_list)):
-    print(books_list[i])
-
-print('\nIndex dimulai dari nol namun untuk Jumlah dimulai dari 1')
